@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 // simple route
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome Jonathander!",
+    message: "Welcome Jonathander1!",
   });
 });
 
